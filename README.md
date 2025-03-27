@@ -1,0 +1,1 @@
+See [https://github.com/flatironinstitute/neurosift/blob/main-v2/docs/mcp-neurosift-tools.md](https://github.com/flatironinstitute/neurosift/blob/main-v2/docs/mcp-neurosift-tools.md)
