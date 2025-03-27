@@ -104,7 +104,7 @@ class PlotVisionServer {
           'https://openrouter.ai/api/v1/chat/completions',
           {
             // model: 'anthropic/claude-3.5-sonnet',
-            // gpt-4o is much more accurate for interpretting plots than claude-3.5-sonnet
+            // gpt-4o is much more accurate for interpreting plots than claude-3.5-sonnet
             model: 'openai/gpt-4o',
             messages: [
               {
