@@ -1,0 +1,27 @@
+{
+  "name": "neurosift-mcps",
+  "owner": {
+    "name": "Jeremy Magland",
+    "email": "jmagland@flatironinstitute.org"
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "description": "MCP servers for neuroscience research tools including DANDI archive search, NWB file analysis, OpenNeuro integration, and scientific plot analysis"
+  },
+  "plugins": [
+    {
+      "name": "neurosift-tools",
+      "source": "./neurosift-tools",
+      "description": "Neurosift MCP server for accessing DANDI archive datasets, NWB files, OpenNeuro data, and pynwb documentation",
+      "category": "neuroscience",
+      "tags": ["neuroscience", "dandi", "nwb", "neurophysiology", "research", "data-archive"]
+    },
+    {
+      "name": "plot-vision",
+      "source": "./plot-vision",
+      "description": "Scientific plot analysis MCP server using LLM vision capabilities to interpret and explain scientific graphs and figures",
+      "category": "neuroscience",
+      "tags": ["visualization", "analysis", "plots", "figures", "ai-vision"]
+    }
+  ]
+}
